@@ -2,9 +2,18 @@
 
 ProShop is a fully-featured e-commerce platform designed to provide a seamless shopping experience. It includes everything from user interaction with products to comprehensive administrative management tools.
 
+## Live Preview
+
+Access the live application here: [ProShop Live Site](https://ahmad2shadab-fullstack-ecom.netlify.app/)
+
+## Preview
+
+![ProShop Preview](frontend/public/assets/images/screens.png)
+
 ## Features
 
 ### General Features
+
 - **Full featured shopping cart**: Users can add items to their cart, adjust quantities, and proceed to checkout.
 - **Product reviews and ratings**: Customers can review products and rate them based on their experiences.
 - **Top products carousel**: Highlights and displays top-rated or popular products on the home page.
@@ -13,16 +22,19 @@ ProShop is a fully-featured e-commerce platform designed to provide a seamless s
 - **User profile with orders**: Users can view their profile and track their order history.
 
 ### Checkout Process
+
 - **Checkout process**: Integrated checkout process including entry of shipping details and selection of payment method.
 - **PayPal / credit card integration**: Secure payment integration that supports both PayPal and credit card transactions.
 
 ### Admin Features
+
 - **Admin product management**: Admins can add, edit, and remove products.
 - **Admin user management**: Manage user accounts to ensure compliance with store policies.
 - **Admin Order details page**: View and manage the details of orders placed by customers.
 - **Mark orders as delivered**: Admins can update order statuses to reflect delivery status.
 
 ### Extra Tools
+
 - **Database seeder (products & users)**: Easily populate the database with initial data for products and users, useful for testing and development.
 
 ## Technologies Used
@@ -50,16 +62,19 @@ Clone the repository to your local machine:
 git clone https://github.com/ahmad2shadab/proshop.git
 cd proshop
 ```
+
 Install the required dependencies:
 
 ```bash
 npm install
 ```
+
 Seed the database:
 
 ```bash
 npm run seed
 ```
+
 **Running the Application**
 
 Start the server:
@@ -73,6 +88,7 @@ Open your browser and navigate to:
 ```arduino
 http://localhost:3000
 ```
+
 **Usage**
 
 After setting up the project, you can register as a new user or log in using seeded user credentials to explore both user and admin functionalities.
@@ -84,8 +100,3 @@ Contributions to improve the application are welcome. Please fork the repository
 **License**
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
-
-```csharp
-
-You can simply copy this markdown content and paste it into your README.md file in your project repository.
-```
