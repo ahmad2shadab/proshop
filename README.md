@@ -4,7 +4,7 @@ ProShop is a fully-featured e-commerce platform designed to provide a seamless s
 
 ## Live Preview
 
-Access the live application here: [ProShop Live Site](https://ahmad2shadab-fullstack-ecom.netlify.app/)
+Access the live application here: [ProShop Live Site](https://ahmad2shadab-proshop.netlify.app)
 
 ## Preview
 
