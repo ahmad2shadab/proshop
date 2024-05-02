@@ -1,3 +1,4 @@
+// import bootstrap
 import { Card } from 'react-bootstrap';
 
 const Product = ({ product }) => {
