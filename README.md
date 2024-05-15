@@ -86,7 +86,7 @@ npm start
 Open your browser and navigate to:
 
 ```arduino
-http://localhost:3000
+http://localhost:portNumber
 ```
 
 **Usage**
@@ -99,4 +99,4 @@ Contributions to improve the application are welcome. Please fork the repository
 
 **License**
 
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+This project is licensed under the MIT License.
