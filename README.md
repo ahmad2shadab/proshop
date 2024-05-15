@@ -86,7 +86,7 @@ npm start
 Open your browser and navigate to:
 
 ```arduino
-http://localhost:3000
+http://localhost:portNumber
 ```
 
 **Usage**
