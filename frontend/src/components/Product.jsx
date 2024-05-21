@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 // import bootstrap
 import { Card } from 'react-bootstrap';
 // import link

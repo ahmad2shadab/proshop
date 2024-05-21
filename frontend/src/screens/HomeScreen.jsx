@@ -1,8 +1,24 @@
+import { useState, useEffect } from 'react';
+import axios from 'axios';
 import { Row, Col } from 'react-bootstrap';
-import products from '../products';
 import Product from '../components/Product';
 
 const HomeScreen = () => {
+  const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+    const fetchProducts = async () => {
+      try {
+        const { data } = await axios.get('/api/products'); // Use relative URL
+        setProducts(data);
+      } catch (error) {
+        console.error('Error fetching products:', error);
+      }
+    };
+
+    fetchProducts();
+  }, []);
+
   return (
     <>
       <h1>Latest Products</h1>
@@ -16,4 +32,5 @@ const HomeScreen = () => {
     </>
   );
 };
+
 export default HomeScreen;
