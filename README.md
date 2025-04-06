@@ -1,6 +1,6 @@
 # ProShop: Online Store Application
 
-ProShop is a fully-featured e-commerce platform designed to provide a seamless shopping experience. It includes everything from user interaction with products to comprehensive administrative management tools.
+ProShop is a fully-featured e-commerce platform designed to provide a seamless shopping experience. It includes everything from user interaction with products to comprehensive administrative management tools
 
 ## Live Preview
 
